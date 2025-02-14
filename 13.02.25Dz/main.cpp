@@ -19,11 +19,10 @@ std::string normalize(const std::string& word) {
 }
 
 int main() {
-    std::ifstream file("harry_potter.txt"); 
+    std::ifstream file("J. K. Rowling - Harry Potter 1 - Sorcerer's Stone.txt"); 
     std::string word;
     std::vector<std::string> uniqueWordsVector;
     std::set<std::string> uniqueWordsSet;
-
 
     if (!file.is_open()) {
         std::cerr << "Could not open the file!" << "\n";
