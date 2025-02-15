@@ -27,7 +27,6 @@ int main() {
         return 1;
     }
 
-    // Read words from the file
     while (file >> word) {
         std::string normalizedWord = normalize(word); 
 
